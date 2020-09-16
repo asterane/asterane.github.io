@@ -1,0 +1,17 @@
+---
+layout: default
+title: Blog
+---
+
+<div id="outline-container-org5ef06cb" class="outline-2">
+<h2 id="org5ef06cb">Posts</h2>
+<div class="outline-text-2" id="text-org5ef06cb">
+<ul class="posts">
+  {% for post in site.posts %}
+  <li><span>{{ post.date | date_to_string }}</span>
+    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+  </li>
+  {% endfor %}
+</ul>
+</div>
+</div>

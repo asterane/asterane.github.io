@@ -1,0 +1,6 @@
+#+TITLE: Sitemap for project asterane-org
+
+- [[file:about.org][about]]
+- [[file:blog.org][blog]]
+- [[file:index.org][index]]
+- [[file:projects.org][projects]]

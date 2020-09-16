@@ -1,0 +1,12 @@
+#+STARTUP: showall
+#+OPTIONS: toc:nil num:nil
+#+BEGIN_EXPORT html
+---
+layout: default
+title: Projects
+---
+#+END_EXPORT
+
+* [[https://github.com/asterane/processor-design][Processor Design]]
+Designing a custom sixteen bit central processing unit, and
+constructing it out of discrete logic components.

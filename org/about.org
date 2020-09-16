@@ -1,0 +1,47 @@
+#+STARTUP: showall
+#+OPTIONS: toc:nil num:nil
+#+BEGIN_EXPORT html
+---
+layout: default
+title: About
+---
+#+END_EXPORT
+
+* About Me
+I am Matthew Rothlisberger, an aspiring electrical engineer and
+software developer.
+
+* About This Site
+This is a portfolio of my education, my work experience, and of the
+engineering projects I have tackled over the years. Adequately notable
+projects will be added and updated as I make progress.
+
+* Education
+Of course! To date, most recent to least recent:
+
+** Utah State University
+2021 - 2025
+
+Admitted
+
+B.S. Electrical Engineering
+
+** Thomas Jefferson High School for Science and Technology
+2016 - 2020
+
+Graduated
+
+Electrical Engineering Focus
+
+* Work Experience
+Again, most to least recent:
+
+** Junior Software Developer
+2020 -
+
+Freelance
+
+** Senior Audiovisual Technician
+2018 - 2020
+
+Fairfax County Public Schools
