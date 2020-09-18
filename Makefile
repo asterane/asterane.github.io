@@ -4,21 +4,21 @@
 
 serve: publish
 	@echo "Serving..."
-	bundle exec jekyll serve
+	bundle exec jekyll serve --host=0.0.0.0
 
 publish: publish.el
 	@echo "Publishing..."
-	emacs --batch --load publish.el --funcall asterane-publish
+	emacs --batch --no-init-file --load publish.el --funcall asterane-publish
 	@rm -rvf *.html~
-	@echo -e '---\nlayout: default\ntitle: Sitemap\n---\n' |\
-	cat - sitemap.html > temp && mv temp sitemap.html
+	@rm -rvf */*.html~
+#	@echo -e '---\nlayout: default\ntitle: Sitemap\n---\n' |\
+#	cat - sitemap.html > temp && mv temp sitemap.html
 
 clean:
 	@echo "Cleaning directory..."
-	@rm -rvf *.elc
+	@find org -maxdepth 1 -mindepth 1 -type d -exec basename {} \; |\
+	xargs rm -rvf
 	@rm -rvf .jekyll-cache
 	@rm -rvf _site
-	@rm -rvf _posts
-	@rm -rvf css
-	@rm -rvf img
 	@rm -rvf *.html*
+	@rm -rvf *.elc

@@ -1,0 +1,104 @@
+#+STARTUP: showall
+#+OPTIONS: toc:nil num:nil
+#+BEGIN_EXPORT html
+---
+layout: default
+title: Colophon
+---
+#+END_EXPORT
+
+#+TOC: headlines 1
+
+All of the content on this site is either my work or is in the public
+domain. I designed and implemented the user interface and style
+myself.
+
+To make this project easier, and serve the website to you, I used a
+stack of excellent tools.
+
+* Creating site content
+
+** GNU Emacs
+In my opinion, the greatest text editor / integrated development
+environment ever created. Finely honed and infinitely customizable.
+
+** Org Mode
+A feature filled hierarchical document creation system for Emacs, and
+the closest to perfect to do management you can get.
+
+** GIMP
+High quality image editor and converter, used to alter or touch up
+many of the images I use on the site.
+
+** Vivaldi
+Great browser based on Chromium, used to assess the appearance of the
+site and debug the interactions between HTML, CSS, and JS.
+
+* Generating the site
+
+** GNU Make
+Extremely flexible system for creating recipes to build software. Used
+to condense the Org to HTML conversion into one command.
+
+** GNU Emacs
+Used as an Emacs Lisp interpreter, running the functions required to
+have all my source files converted into HTML for Jekyll.
+
+** Org Mode
+Provides a fantastic HTML exporter and publisher, used to create the
+body HTML of every page on the site, and a sitemap as well.
+
+** Jekyll
+Static site and blog creation system; uses my layouts and stylesheet,
+and the bodies created by Org mode, to generate the site's final form.
+
+* Serving the site
+
+** Git
+Universally used version control system, handles tracking changes and
+pushing site updates to GitHub.
+
+** Magit
+Fantastic interface to Git from within Emacs. Provides convenient
+keybindings and useful information for all version control tasks.
+
+** Jekyll
+Integrated into GitHub, generates my site in the production
+environment so that it can be served to you.
+
+** GitHub
+Free hosting of source repositories and static sites alike; simply the
+best option available for this site.
+
+* Languages used
+
+** HTML5
+HyperText Markup Language, the standard Internet markup language.
+
+** CSS3
+Cascading Style Sheets, the standard Internet styling language.
+
+** JavaScript
+The standard Internet scripting language.
+
+** Liquid
+Jekyll's template language; enables dynamic generation of static
+content.
+
+** YAML
+Markup language used for Jekyll configuration, like setting sitewide
+variables.
+
+** Emacs Lisp
+Lisp dialect which describes much of Emacs functionality. Used to
+write directives for the Org mode publisher.
+
+** Makefile
+Simple declarative language used to automate software builds.
+
+** Zsh
+Extension of the Bourne again shell, used for scripting.
+
+** English
+Germanic language written with a simple alphabet. Used to express
+ideas to others.

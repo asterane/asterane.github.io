@@ -3,11 +3,53 @@ layout: default
 title: Matthew Rothlisberger
 ---
 
-<div id="outline-container-org8232932" class="outline-2">
-<h2 id="org8232932">Overview</h2>
-<div class="outline-text-2" id="text-org8232932">
 <p>
-Welcome to my personal homepage!
+I am an electrical engineering student and software developer. I often
+go by the handle <b>asterane</b> on the internet. Welcome to my homepage!
+</p>
+
+<div id="outline-container-org1bce3d7" class="outline-2">
+<h2 id="org1bce3d7">Recent Posts</h2>
+<div class="outline-text-2" id="text-org1bce3d7">
+<ul class="posts">
+{% for post in site.posts limit: 5 %}
+  <div class="post_info">
+    <li>
+	    <a href="{{ post.url }}">{{ post.title }}</a>
+	    <span>({{ post.date | date:"%Y-%m-%d" }})</span>
+    </li>
+    <p>{{ post.excerpt }}</p>
+    </div>
+  {% endfor %}
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org23cdbfd" class="outline-2">
+<h2 id="org23cdbfd">Overview</h2>
+<div class="outline-text-2" id="text-org23cdbfd">
+<p>
+Navigate the site using the links to the left (or above, on
+mobile).
+</p>
+
+<p>
+<a href="about.html">About</a> gives more information about me, my work, and my education.
+</p>
+
+<p>
+Under <a href="projects.html">Projects</a>, find information about my engineering projects, each
+of which has its own GitHub repository.
+</p>
+
+<p>
+My <a href="blog.html">blog</a> contains writings on technology and engineering, hardware and
+software alike.
+</p>
+
+<p>
+In the footer are links to my <a href="https://github.com/asterane">GitHub</a> profile, my <a href="contact.html">contact</a> page, and the
+<a href="colophon.html">colophon</a> for this site.
 </p>
 </div>
 </div>

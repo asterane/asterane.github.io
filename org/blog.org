@@ -7,6 +7,10 @@ title: Blog
 ---
 #+END_EXPORT
 
+Welcome to the archives of my blog on engineering and
+technology. There is not much here yet, but there will be more as time
+goes on.
+
 * Posts
 #+BEGIN_EXPORT html
 <ul class="posts">

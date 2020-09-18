@@ -7,14 +7,14 @@
          :publishing-directory "."
          :recursive t
          :publishing-function org-html-publish-to-html
-         :headline-levels 4 ;; Could be whatever
+         :headline-levels 5 ;; Could be whatever
          :html-extension "html"
          :body-only t ;; Only export between <body> </body>
-         :auto-sitemap t
+         :auto-sitemap nil
          )
         ("asterane-static"
          :base-directory "./org/"
-         :base-extension "html\\|md\\|css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|ogg\\|php"
+         :base-extension "html\\|css\\|js\\|md\\|png\\|jpg\\|gif\\|ico\\|pdf\\|mp3\\|ogg\\|php"
          :publishing-directory "."
          :recursive t
          :publishing-function org-publish-attachment
