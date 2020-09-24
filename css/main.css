@@ -30,7 +30,10 @@ nav ul li {
     line-height: 0;
     margin: 0;
     font-family: Tahoma, Geneva, sans-serif;
-    font-weight: bold;
+    font-weight: lighter;
+    /* font-variant: small-caps; */
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 nav ul li a {
     color: white;
@@ -52,8 +55,27 @@ a {
 a:hover {
     text-decoration: underline;
 }
-div#table-of-contents {margin: 1rem 0rem 2rem;}
-div#table-of-contents h2 {display: none;}
+div#home {
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+div#home h1 {
+    /* position: absolute; */
+    /* text-align: center; */
+    /* top: 17%; */
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    /* width: 100%; */
+    /* font-size: 3.5rem; */
+    /* font-weight: lighter; */
+    /* font-variant: small-caps; */
+    /* letter-spacing: 1px; */
+    /* color: white; */
+    /* text-shadow: 2px 2px 8px black, -2px -2px 8px black, 2px -2px 8px black, -2px 2px 8px black; */
+    margin-bottom: 1.5rem;
+}
+div.toc {margin: 1rem 0rem 2rem;}
+div.toc div.heading {display: none;}
 h1, h2, h3, h4, h5, h6 {
     font-family: Tahoma, Geneva, sans-serif;
     color: #222;
@@ -152,7 +174,7 @@ p.meta {
 h1 + p:not(.meta) {
     margin-top: 2rem;
 }
-h1 + ul {
+h1 + ul.posts {
     margin-top: 2rem;
 }
 .highlight {
