@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on asterane</title>
-    <link>asterane.github.io/</link>
+    <link>https://asterane.github.io/</link>
     <description>Recent content in Home on asterane</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 23 Sep 2020 21:49:23 -0400</lastBuildDate>
     
-	<atom:link href="asterane.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://asterane.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hello World!</title>
-      <link>asterane.github.io/posts/hello-world/</link>
+      <link>https://asterane.github.io/posts/hello-world/</link>
       <pubDate>Tue, 22 Sep 2020 12:00:00 -0400</pubDate>
       
-      <guid>asterane.github.io/posts/hello-world/</guid>
+      <guid>https://asterane.github.io/posts/hello-world/</guid>
       <description>&lt;p&gt;I have been interested in putting up my own website for some time, and
 I&amp;rsquo;ve finally decided to make it happen. The coronavirus pandemic (I&amp;rsquo;ve
 seen it referred to in one news article as &amp;ldquo;the ongoing global
@@ -27,40 +27,40 @@ days. In this post, I briefly discuss my motivations and goals.&lt;/p&gt;</descr
     
     <item>
       <title>About</title>
-      <link>asterane.github.io/about/</link>
+      <link>https://asterane.github.io/about/</link>
       <pubDate>Wed, 23 Sep 2020 21:49:23 -0400</pubDate>
       
-      <guid>asterane.github.io/about/</guid>
+      <guid>https://asterane.github.io/about/</guid>
       <description>Table of Contents  About Me About This Site Education  Utah State University Thomas Jefferson High School for Science and Technology   Work Experience  Junior Software Developer Senior Audiovisual Technician      About Me Hi, my name is Matthew Rothlisberger. I am an aspiring electrical engineer and software developer.
 I am passionate about engineering as a mechanism to improve our world; I find it fulfilling to implement effective solutions for difficult and meaningful problems.</description>
     </item>
     
     <item>
       <title>Projects</title>
-      <link>asterane.github.io/projects/</link>
+      <link>https://asterane.github.io/projects/</link>
       <pubDate>Wed, 23 Sep 2020 21:49:23 -0400</pubDate>
       
-      <guid>asterane.github.io/projects/</guid>
+      <guid>https://asterane.github.io/projects/</guid>
       <description>This is a list of my personal projects. Many are engineering efforts and some were undertaken for the sake of learning. I feel that all those listed are notable enough to include for now, but some will be removed in the future, and more will certainly be added.
 Several of these projects are not yet completed to my satisfaction, and I am continuing work on the ones that I consider most valuable.</description>
     </item>
     
     <item>
       <title>Blog</title>
-      <link>asterane.github.io/blog/</link>
+      <link>https://asterane.github.io/blog/</link>
       <pubDate>Wed, 23 Sep 2020 21:49:24 -0400</pubDate>
       
-      <guid>asterane.github.io/blog/</guid>
+      <guid>https://asterane.github.io/blog/</guid>
       <description>Welcome to the archives of my blog on engineering and technology. There is not much here yet, but there will be more as time goes on.
 Posts Sep 22 2020 Hello World!   </description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>asterane.github.io/contact/</link>
+      <link>https://asterane.github.io/contact/</link>
       <pubDate>Wed, 23 Sep 2020 21:49:24 -0400</pubDate>
       
-      <guid>asterane.github.io/contact/</guid>
+      <guid>https://asterane.github.io/contact/</guid>
       <description>If you are recruiting developers or engineers, I am interested. I also want to hear any feedback you have about my projects or the site itself.
 If you really want to find my email address, I&amp;rsquo;m sure you can. Otherwise, use this form to contact me just as easily.
 Loading… </description>
@@ -68,10 +68,10 @@ Loading… </description>
     
     <item>
       <title>Colophon</title>
-      <link>asterane.github.io/colophon/</link>
+      <link>https://asterane.github.io/colophon/</link>
       <pubDate>Wed, 23 Sep 2020 21:49:24 -0400</pubDate>
       
-      <guid>asterane.github.io/colophon/</guid>
+      <guid>https://asterane.github.io/colophon/</guid>
       <description>Table of Contents  Creating site content Generating the site Serving the site Languages used    All of the content on this site is either my work or is in the public domain. I designed and implemented the user interface and style myself.
 To make this project easier, and serve the website to you, I used a stack of excellent tools.
 Creating site content GNU Emacs In my opinion, the greatest text editor / integrated development environment ever created.</description>
