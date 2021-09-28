@@ -178,7 +178,7 @@ in the configuration file will be part of the generated site.</p>
 with snippets of Liquid that indicate where content is meant to be
 inserted. Below is a basic example of a <code>default.html</code> layout for a
 Jekyll website.</p>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#080">&lt;!DOCTYPE html&gt;</span>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#080">&lt;!DOCTYPE html&gt;</span>
 &lt;<span style="color:#008000;font-weight:bold">html</span>&gt;
   &lt;<span style="color:#008000;font-weight:bold">head</span>&gt;
     &lt;<span style="color:#008000;font-weight:bold">title</span>&gt;{{ page.title }}&lt;/<span style="color:#008000;font-weight:bold">title</span>&gt;
@@ -214,7 +214,7 @@ itself is the text of that file.</p>
 pages, and to set important variables, all content files must begin
 with Jekyll front matter. Here are the first four lines of a page
 <code>helloworld.md</code>.</p>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#00f;font-weight:bold">---</span><span style="color:#bbb">
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#00f;font-weight:bold">---</span><span style="color:#bbb">
 </span><span style="color:#bbb"></span><span style="color:#008000;font-weight:bold">layout</span>:<span style="color:#bbb"> </span>default<span style="color:#bbb">
 </span><span style="color:#bbb"></span><span style="color:#008000;font-weight:bold">title</span>:<span style="color:#bbb"> </span>Hello World<span style="color:#bbb">
 </span><span style="color:#bbb"></span><span style="color:#00f;font-weight:bold">---</span><span style="color:#bbb">
@@ -232,7 +232,7 @@ structure at <code>/YYYY/MM/DD/put-name-here.html</code>.</p>
 of static site layouts: they may be nested. A layout which is to use
 another as a parent must begin with front matter. Here is an example
 <code>post.html</code> layout that displays the date below the title.</p>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">---
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">---
 layout: default
 ---
 
@@ -253,7 +253,7 @@ when it is displayed in a browser.</p>
 site. Any complete site will likely be more complicated than this, but
 it serves to show how Jekyll structures its files in practice. The
 generated site would be placed in a <code>_site</code> directory.</p>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">.
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">.
 ├── _layouts
 │   ├── default.html
 │   └── post.html
@@ -302,7 +302,7 @@ files should be published as HTML files containing only a body, and
 that all other files (CSS, images) should be published verbatim. I
 also included a function that runs when the file is loaded and
 actually publishes the content.</p>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp">(<span style="color:#a2f">require</span> <span style="color:#b8860b">&#39;ox-publish</span>)
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp">(<span style="color:#a2f">require</span> <span style="color:#b8860b">&#39;ox-publish</span>)
 (<span style="color:#a2f">setq</span> <span style="color:#b8860b">org-publish-project-alist</span>
       <span style="color:#666">&#39;</span>(
         (<span style="color:#b44">&#34;asterane-org&#34;</span>
@@ -335,7 +335,7 @@ actually publishes the content.</p>
 Jekyll, I also had to structure my Org files in such a way that
 appropriate Jekyll front matter would be placed at the top of each
 one. Each Org file I published from thus began as shown here.</p>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-org" data-lang="org"><span style="color:#080;font-weight:bold">#+OPTIONS</span><span style="color:#080;font-style:italic">: toc:nil num:nil</span>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-org" data-lang="org"><span style="color:#080;font-weight:bold">#+OPTIONS</span><span style="color:#080;font-style:italic">: toc:nil num:nil</span>
 <span style="color:#080;font-style:italic">#+BEGIN_EXPORT </span><span style="color:#080;font-weight:bold">html</span>
 ---
 layout: default
@@ -347,7 +347,7 @@ title: [title]
 run from the top level directory of my Jekyll site. I wrote a Makefile
 to accomplish this and other useful functions using only simple
 commands, shown below.</p>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-makefile" data-lang="makefile"><span style="color:#00a000">.PHONY</span><span style="color:#666">:</span> serve publish
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-makefile" data-lang="makefile"><span style="color:#00a000">.PHONY</span><span style="color:#666">:</span> serve publish
 
 <span style="color:#00a000">serve</span><span style="color:#666">:</span> publish
         @echo <span style="color:#b44">&#34;Serving...&#34;</span>
@@ -427,7 +427,7 @@ files or folders deemed necessary, but the final site will only be
 generated from the contents of particular folders, according to a
 clearly documented set of rules. A simple configuration file,
 <code>config.toml</code>, appears below.</p>
-<pre><code class="language-conf" data-lang="conf">baseURL = &quot;https://asterane.github.io/&quot;
+<pre tabindex="0"><code class="language-conf" data-lang="conf">baseURL = &quot;https://asterane.github.io/&quot;
 languageCode = &quot;en-us&quot;
 title = &quot;asterane&quot;
 
@@ -448,7 +448,7 @@ content and various parameters should be inserted.</p>
 <code>layouts/_default/baseof.html</code>. All layouts will inherit from this one
 unless otherwise specified; a default for list pages may also be
 created. Here is a basic example of a <code>baseof.html</code> layout for Hugo.</p>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#080">&lt;!DOCTYPE html&gt;</span>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#080">&lt;!DOCTYPE html&gt;</span>
 &lt;<span style="color:#008000;font-weight:bold">html</span>&gt;
   &lt;<span style="color:#008000;font-weight:bold">head</span>&gt;
     &lt;<span style="color:#008000;font-weight:bold">title</span>&gt;{{ .Title }} | {{ .Site.Title }}&lt;/<span style="color:#008000;font-weight:bold">title</span>&gt;
@@ -487,7 +487,7 @@ one. In addition to <code>baseof.html</code>, Hugo requires the provision of two
 other templates: <code>single.html</code> and <code>index.html</code>. The former provides
 the template for all single pages; the latter, the template for the
 site&rsquo;s main page. See a basic <code>single.html</code> below.</p>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">{{ define &#34;main&#34; }}
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">{{ define &#34;main&#34; }}
 
 &lt;<span style="color:#008000;font-weight:bold">h1</span>&gt;{{ .Title }}&lt;/<span style="color:#008000;font-weight:bold">h1</span>&gt;
 {{ .Content }}
@@ -507,7 +507,7 @@ displayed when an invalid URL is accessed.</p>
 Markdown. They may be split up into subdirectories as desired, each
 representing a distinct section of the site. Every content file must
 contain Hugo front matter, depicted here.</p>
-<pre><code class="language-conf" data-lang="conf">+++
+<pre tabindex="0"><code class="language-conf" data-lang="conf">+++
 title = &quot;Hello World&quot;
 author = [&quot;Name Here&quot;]
 +++
@@ -525,7 +525,7 @@ autogenerated folders are unused; they could be deleted if
 desired. The conceptual division between content, layouts, and
 resources is apparent. Different layouts will apply to different
 content based on directory structure and name.</p>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">.
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">.
 ├── archetypes
 │   └── default.md
 ├── data
@@ -593,7 +593,7 @@ process, I still wanted a unified interface to my commonly used
 operations. I created a simple Makefile, shown here, that can serve my
 site locally, publish it to <code>public</code>, deploy <code>public</code>, and clean up
 generated files.</p>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-makefile" data-lang="makefile"><span style="color:#00a000">.PHONY</span><span style="color:#666">:</span> deploy serve publish
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-makefile" data-lang="makefile"><span style="color:#00a000">.PHONY</span><span style="color:#666">:</span> deploy serve publish
 
 <span style="color:#00a000">deploy</span><span style="color:#666">:</span>
         @./deploy.sh
@@ -646,7 +646,7 @@ in the meantime.</p>
 <hr>
 <ol>
 <li id="fn:1" role="doc-endnote">
-<p>See <a href="https://github.com/grego/blades">Blades</a>. <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>See <a href="https://github.com/grego/blades">Blades</a>.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </section>
@@ -661,7 +661,7 @@ in the meantime.</p>
         <li><a href="/contact">Contact</a></li>
         <li><a href="/colophon">Colophon</a></li>
       </ul>
-      <p>Copyright &#xA9; 2020 Matthew Rothlisberger</p>
+      <p>Copyright &#xA9; 2020-2021 Matthew Rothlisberger</p>
     </footer>
   </body>
 </html>

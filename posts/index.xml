@@ -6,11 +6,11 @@
     <description>Recent content in Posts on asterane</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 14 Oct 2020 20:27:00 -0400</lastBuildDate><atom:link href="https://asterane.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 Oct 2020 20:27:00 -0600</lastBuildDate><atom:link href="https://asterane.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello World!</title>
       <link>https://asterane.github.io/posts/hello-world/</link>
-      <pubDate>Tue, 22 Sep 2020 12:00:00 -0400</pubDate>
+      <pubDate>Tue, 22 Sep 2020 12:00:00 -0600</pubDate>
       
       <guid>https://asterane.github.io/posts/hello-world/</guid>
       <description>&lt;p&gt;I have been interested in putting up my own website for some time, and
@@ -24,7 +24,7 @@ days. In this post, I briefly discuss my motivations and goals.&lt;/p&gt;</descr
     <item>
       <title>A Tale of Jekyll and Hugo</title>
       <link>https://asterane.github.io/posts/a-tale-of-jekyll-and-hugo/</link>
-      <pubDate>Wed, 14 Oct 2020 20:27:00 -0400</pubDate>
+      <pubDate>Wed, 14 Oct 2020 20:27:00 -0600</pubDate>
       
       <guid>https://asterane.github.io/posts/a-tale-of-jekyll-and-hugo/</guid>
       <description>&lt;p&gt;My journey to having a fully functional site where I can publish

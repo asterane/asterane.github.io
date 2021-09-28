@@ -1,58 +1,36 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://asterane.github.io/</loc>
-    <lastmod>2020-10-14T20:44:12-04:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-09-28T15:08:14-06:00</lastmod>
+  </url><url>
     <loc>https://asterane.github.io/posts/hello-world/</loc>
-    <lastmod>2020-10-14T20:44:14-04:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-09-28T15:08:15-06:00</lastmod>
+  </url><url>
     <loc>https://asterane.github.io/about/</loc>
-    <lastmod>2020-10-14T20:44:12-04:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-09-28T15:08:14-06:00</lastmod>
+  </url><url>
     <loc>https://asterane.github.io/posts/a-tale-of-jekyll-and-hugo/</loc>
-    <lastmod>2020-10-14T20:44:14-04:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-09-28T15:08:15-06:00</lastmod>
+  </url><url>
     <loc>https://asterane.github.io/projects/</loc>
-    <lastmod>2020-10-14T20:44:13-04:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-09-28T15:08:14-06:00</lastmod>
+  </url><url>
     <loc>https://asterane.github.io/blog/</loc>
-    <lastmod>2020-10-14T20:44:13-04:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-09-28T15:08:14-06:00</lastmod>
+  </url><url>
     <loc>https://asterane.github.io/contact/</loc>
-    <lastmod>2020-10-14T20:44:13-04:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-09-28T15:08:14-06:00</lastmod>
+  </url><url>
     <loc>https://asterane.github.io/colophon/</loc>
-    <lastmod>2020-10-14T20:44:13-04:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-09-28T15:08:15-06:00</lastmod>
+  </url><url>
     <loc>https://asterane.github.io/posts/</loc>
-    <lastmod>2020-10-14T20:44:14-04:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-09-28T15:08:15-06:00</lastmod>
+  </url><url>
     <loc>https://asterane.github.io/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://asterane.github.io/tags/</loc>
   </url>
-  
 </urlset>
