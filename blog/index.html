@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Blog | asterane</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    
+    <link rel="stylesheet" type="text/css" href="/css/syntax.css">
+    
+    <link rel="shortcut icon" href="/img/asterane.ico">
+
+    <script type="text/javascript">
+      function showMenu() {
+          var nav = document.getElementById("nav");
+          var menu = document.getElementById("menu").children[0];
+          if (nav.classList.contains("display")) {
+              menu.innerHTML = "Menu &#x002B";
+              nav.classList.remove("display");
+          } else {
+              menu.innerHTML = "Menu &#x2212;";
+              nav.classList.add("display");
+          }
+      }
+    </script>
+  </head>
+  <body>
+    <nav id="nav">
+      <p>asterane</p>
+      <ul>
+        <li id="menu"><a href="javascript:void(0);"
+        onclick="showMenu()">Menu &#x002B;</a></li>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/projects">Projects</a></li>
+        <li><a href="/blog">Blog</a></li>
+        
+      </ul>
+      <img src="/img/asterane_white.png" alt="Chemical structure of
+          3-Asterane" title="Chemical structure of 3-Asterane" width="100%">
+    </nav>
+    <div class="container">
+
+      
+
+<h1>Blog</h1>
+<p>Welcome to the archives of my blog on engineering and
+technology. There is not much here yet, but there will be more as time
+goes on.</p>
+<h2 id="posts">Posts</h2>
+
+<ul class="posts">
+  
+  <li><span>Oct 14 2020</span>
+    <a href="/posts/a-tale-of-jekyll-and-hugo/" title="A Tale of Jekyll and Hugo">A Tale of Jekyll and Hugo</a>
+  </li>
+  
+  <li><span>Sep 22 2020</span>
+    <a href="/posts/hello-world/" title="Hello World!">Hello World!</a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+    </div>
+    <footer>
+      <ul>
+        <li><a href="https://github.com/asterane" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        <li><a href="/contact">Contact</a></li>
+        <li><a href="/colophon">Colophon</a></li>
+      </ul>
+      <p>Copyright &#xA9; 2020-2021 Matthew Rothlisberger</p>
+    </footer>
+  </body>
+</html>

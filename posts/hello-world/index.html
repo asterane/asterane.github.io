@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello World! | asterane</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    
+    <link rel="stylesheet" type="text/css" href="/css/syntax.css">
+    
+    <link rel="shortcut icon" href="/img/asterane.ico">
+
+    <script type="text/javascript">
+      function showMenu() {
+          var nav = document.getElementById("nav");
+          var menu = document.getElementById("menu").children[0];
+          if (nav.classList.contains("display")) {
+              menu.innerHTML = "Menu &#x002B";
+              nav.classList.remove("display");
+          } else {
+              menu.innerHTML = "Menu &#x2212;";
+              nav.classList.add("display");
+          }
+      }
+    </script>
+  </head>
+  <body>
+    <nav id="nav">
+      <p>asterane</p>
+      <ul>
+        <li id="menu"><a href="javascript:void(0);"
+        onclick="showMenu()">Menu &#x002B;</a></li>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/projects">Projects</a></li>
+        <li><a href="/blog">Blog</a></li>
+        
+      </ul>
+      <img src="/img/asterane_white.png" alt="Chemical structure of
+          3-Asterane" title="Chemical structure of 3-Asterane" width="100%">
+    </nav>
+    <div class="container">
+
+      
+
+<h1>Hello World!</h1>
+<p class="meta">2020-09-22</p>
+
+<div class="post">
+  <p>I have been interested in putting up my own website for some time, and
+I&rsquo;ve finally decided to make it happen. The coronavirus pandemic (I&rsquo;ve
+seen it referred to in one news article as &ldquo;the ongoing global
+situation&rdquo;) has offered me more time than expected to work on personal
+projects, so I have been assembling this site for the last several
+days. In this post, I briefly discuss my motivations and goals.</p>
+<h2 id="my-intent">My Intent</h2>
+<p>This site was conceived as a place to share my personal portfolio of
+projects with friends, colleagues, and potential employers. The
+resources comprising each project are stored in a repository on
+GitHub, which this site links to. Eventually, I will create additional
+pages on this site to showcase my work.</p>
+<p>Each of the projects that interest me most, present or future, will
+have their own showcase pages featuring explanations, diagrams, and
+image galleries. Projects intended to be broadly useful to others will
+also have documentation explaining features, specifications, and a
+roadmap for future development.</p>
+<h2 id="this-blog">This Blog</h2>
+<p>A primary motivation to create my own site is my interest in writing
+about technology and engineering. Writing is a fantastic way to
+organize and reconsider thoughts about a topic, and to gain new
+insights. I have many exciting projects in the pipeline, almost all of
+which I intend to write about in this blog.</p>
+<p>My posts will focus on engineering problems that are interesting to
+me; I will strive to make them interesting for any future readers of
+this blog as well. I want to work from first principles, solve
+difficult problems, and make things that help people. If all goes to
+plan, my writings here will chronicle that work.</p>
+<h2 id="what-else">What Else</h2>
+<p>Check out my <a href="/projects/">projects</a>! There are some really cool
+things there. Or perhaps you would like to learn more <a href="/about/">about
+me</a>. If you would like to contact me, use the link below. Thank you
+for reading.</p>
+</div>
+
+
+
+    </div>
+    <footer>
+      <ul>
+        <li><a href="https://github.com/asterane" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        <li><a href="/contact">Contact</a></li>
+        <li><a href="/colophon">Colophon</a></li>
+      </ul>
+      <p>Copyright &#xA9; 2020-2021 Matthew Rothlisberger</p>
+    </footer>
+  </body>
+</html>

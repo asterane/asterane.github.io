@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on asterane</title>
+    <link>https://asterane.github.io/posts/</link>
+    <description>Recent content in Posts on asterane</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 14 Oct 2020 20:27:00 -0600</lastBuildDate><atom:link href="https://asterane.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello World!</title>
+      <link>https://asterane.github.io/posts/hello-world/</link>
+      <pubDate>Tue, 22 Sep 2020 12:00:00 -0600</pubDate>
+      
+      <guid>https://asterane.github.io/posts/hello-world/</guid>
+      <description>&lt;p&gt;I have been interested in putting up my own website for some time, and
+I&amp;rsquo;ve finally decided to make it happen. The coronavirus pandemic (I&amp;rsquo;ve
+seen it referred to in one news article as &amp;ldquo;the ongoing global
+situation&amp;rdquo;) has offered me more time than expected to work on personal
+projects, so I have been assembling this site for the last several
+days. In this post, I briefly discuss my motivations and goals.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>A Tale of Jekyll and Hugo</title>
+      <link>https://asterane.github.io/posts/a-tale-of-jekyll-and-hugo/</link>
+      <pubDate>Wed, 14 Oct 2020 20:27:00 -0600</pubDate>
+      
+      <guid>https://asterane.github.io/posts/a-tale-of-jekyll-and-hugo/</guid>
+      <description>&lt;p&gt;My journey to having a fully functional site where I can publish
+content was somewhat convoluted, but highly educational. In this post,
+I&amp;rsquo;ll be sharing what I learned, discussing the process of creating a
+site using Emacs and Org mode, and comparing the two leading static
+site generators: Jekyll and Hugo.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

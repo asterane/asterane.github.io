@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Colophon | asterane</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    
+    <link rel="stylesheet" type="text/css" href="/css/syntax.css">
+    
+    <link rel="shortcut icon" href="/img/asterane.ico">
+
+    <script type="text/javascript">
+      function showMenu() {
+          var nav = document.getElementById("nav");
+          var menu = document.getElementById("menu").children[0];
+          if (nav.classList.contains("display")) {
+              menu.innerHTML = "Menu &#x002B";
+              nav.classList.remove("display");
+          } else {
+              menu.innerHTML = "Menu &#x2212;";
+              nav.classList.add("display");
+          }
+      }
+    </script>
+  </head>
+  <body>
+    <nav id="nav">
+      <p>asterane</p>
+      <ul>
+        <li id="menu"><a href="javascript:void(0);"
+        onclick="showMenu()">Menu &#x002B;</a></li>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/projects">Projects</a></li>
+        <li><a href="/blog">Blog</a></li>
+        
+      </ul>
+      <img src="/img/asterane_white.png" alt="Chemical structure of
+          3-Asterane" title="Chemical structure of 3-Asterane" width="100%">
+    </nav>
+    <div class="container">
+
+      
+
+<h1>Colophon</h1>
+<div class="ox-hugo-toc toc">
+<div></div>
+<div class="heading">Table of Contents</div>
+<ul>
+<li><a href="#creating-site-content">Creating site content</a></li>
+<li><a href="#generating-the-site">Generating the site</a></li>
+<li><a href="#serving-the-site">Serving the site</a></li>
+<li><a href="#languages-used">Languages used</a></li>
+</ul>
+</div>
+<!--endtoc-->
+<p>All of the content on this site is either my work or is in the public
+domain. I designed and implemented the user interface and style
+myself.</p>
+<p>To make this project easier, and serve the website to you, I used a
+stack of excellent tools.</p>
+<h2 id="creating-site-content">Creating site content</h2>
+<h3 id="gnu-emacs">GNU Emacs</h3>
+<p>In my opinion, the greatest text editor / integrated development
+environment ever created. Finely honed and infinitely customizable.</p>
+<h3 id="org-mode">Org Mode</h3>
+<p>A feature filled hierarchical document creation system for Emacs, and
+the closest to perfect to do management you can get.</p>
+<h3 id="gimp">GIMP</h3>
+<p>High quality image editor and converter, used to alter or touch up
+many of the images I use on the site.</p>
+<h3 id="vivaldi">Vivaldi</h3>
+<p>Great browser based on Chromium, used to assess the appearance of the
+site and debug the interactions between HTML, CSS, and JS.</p>
+<h2 id="generating-the-site">Generating the site</h2>
+<h3 id="gnu-make">GNU Make</h3>
+<p>Extremely flexible system for creating recipes to build software. Used
+to condense several useful operations into single commands.</p>
+<h3 id="gnu-emacs">GNU Emacs</h3>
+<p>Used as an Emacs Lisp interpreter, running the functions required to
+have all my source files converted into HTML for Jekyll.</p>
+<h3 id="ox-hugo"><code>ox-hugo</code></h3>
+<p>Backend for the Org mode exporter that generates Markdown content
+files with front matter for Hugo, from my Org files.</p>
+<h3 id="hugo">Hugo</h3>
+<p>Fast and flexible static site generator that assembles my HTML layouts
+and my generated content files into a complete website.</p>
+<h2 id="serving-the-site">Serving the site</h2>
+<h3 id="git">Git</h3>
+<p>Universally used version control system, handles tracking changes and
+pushing site updates to GitHub.</p>
+<h3 id="magit">Magit</h3>
+<p>Fantastic interface to Git from within Emacs. Provides convenient
+keybindings and useful information for all version control tasks.</p>
+<h3 id="github">GitHub</h3>
+<p>Free hosting of source repositories and static sites alike; simply the
+best option available for this site.</p>
+<h2 id="languages-used">Languages used</h2>
+<h3 id="html5">HTML5</h3>
+<p>HyperText Markup Language, the standard internet markup language.</p>
+<h3 id="css3">CSS3</h3>
+<p>Cascading Style Sheets, the standard internet styling language.</p>
+<h3 id="javascript">JavaScript</h3>
+<p>The standard internet scripting language.</p>
+<h3 id="go-templates">Go Templates</h3>
+<p>Hugo&rsquo;s template language; enables easy dynamic generation of static
+content.</p>
+<h3 id="toml">TOML</h3>
+<p>Markup language used for Hugo configuration, like setting sitewide
+variables.</p>
+<h3 id="emacs-lisp">Emacs Lisp</h3>
+<p>Lisp dialect which describes much of Emacs functionality. Used to
+write directives for the Org mode publisher.</p>
+<h3 id="makefile">Makefile</h3>
+<p>Simple declarative language used to automate software builds.</p>
+<h3 id="zsh">Zsh</h3>
+<p>Extension of the Bourne again shell, used for scripting.</p>
+<h3 id="english">English</h3>
+<p>Germanic language written with a simple alphabet. Used to express
+ideas to others.</p>
+
+
+
+
+    </div>
+    <footer>
+      <ul>
+        <li><a href="https://github.com/asterane" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        <li><a href="/contact">Contact</a></li>
+        <li><a href="/colophon">Colophon</a></li>
+      </ul>
+      <p>Copyright &#xA9; 2020-2021 Matthew Rothlisberger</p>
+    </footer>
+  </body>
+</html>
