@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The Grid on asterane</title>
+    <link>https://asterane.github.io/grid/</link>
+    <description>Recent content in The Grid on asterane</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 21 Dec 2021 03:51:50 -0500</lastBuildDate><atom:link href="https://asterane.github.io/grid/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>System</title>
+      <link>https://asterane.github.io/grid/system/</link>
+      <pubDate>Tue, 21 Dec 2021 03:51:50 -0500</pubDate>
+      
+      <guid>https://asterane.github.io/grid/system/</guid>
+      <description>a</description>
+    </item>
+    
+    <item>
+      <title>Structure</title>
+      <link>https://asterane.github.io/grid/structure/</link>
+      <pubDate>Tue, 21 Dec 2021 03:51:50 -0500</pubDate>
+      
+      <guid>https://asterane.github.io/grid/structure/</guid>
+      <description>a</description>
+    </item>
+    
+    <item>
+      <title>Electronics</title>
+      <link>https://asterane.github.io/grid/electronics/</link>
+      <pubDate>Tue, 21 Dec 2021 03:51:50 -0500</pubDate>
+      
+      <guid>https://asterane.github.io/grid/electronics/</guid>
+      <description>a</description>
+    </item>
+    
+    <item>
+      <title>Software</title>
+      <link>https://asterane.github.io/grid/software/</link>
+      <pubDate>Tue, 21 Dec 2021 03:51:50 -0500</pubDate>
+      
+      <guid>https://asterane.github.io/grid/software/</guid>
+      <description>a</description>
+    </item>
+    
+    <item>
+      <title>Reflection</title>
+      <link>https://asterane.github.io/grid/reflection/</link>
+      <pubDate>Tue, 21 Dec 2021 03:51:50 -0500</pubDate>
+      
+      <guid>https://asterane.github.io/grid/reflection/</guid>
+      <description>a</description>
+    </item>
+    
+  </channel>
+</rss>
