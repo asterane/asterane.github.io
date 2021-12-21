@@ -6,11 +6,11 @@
     <description>Recent content in Home on asterane</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Dec 2021 21:13:32 -0700</lastBuildDate><atom:link href="https://asterane.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 Dec 2021 03:40:44 -0500</lastBuildDate><atom:link href="https://asterane.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello World!</title>
       <link>https://asterane.github.io/posts/hello-world/</link>
-      <pubDate>Tue, 22 Sep 2020 12:00:00 -0600</pubDate>
+      <pubDate>Tue, 22 Sep 2020 12:00:00 -0400</pubDate>
       
       <guid>https://asterane.github.io/posts/hello-world/</guid>
       <description>&lt;p&gt;I have been interested in putting up my own website for some time, and
@@ -22,9 +22,18 @@ days. In this post, I briefly discuss my motivations and goals.&lt;/p&gt;</descr
     </item>
     
     <item>
+      <title>System</title>
+      <link>https://asterane.github.io/the-grid/system/</link>
+      <pubDate>Tue, 21 Dec 2021 03:40:45 -0500</pubDate>
+      
+      <guid>https://asterane.github.io/the-grid/system/</guid>
+      <description>a</description>
+    </item>
+    
+    <item>
       <title>About</title>
       <link>https://asterane.github.io/about/</link>
-      <pubDate>Wed, 01 Dec 2021 21:13:33 -0700</pubDate>
+      <pubDate>Tue, 21 Dec 2021 03:40:44 -0500</pubDate>
       
       <guid>https://asterane.github.io/about/</guid>
       <description>Table of Contents  About Me About This Site Education  Thomas Jefferson High School for Science and Technology   Work Experience  Audiovisual Event Technician Software Developer Senior Audiovisual Technician      About Me Hi, my name is Matthew Rothlisberger. I am a software engineer and electrical engineer.
@@ -34,7 +43,7 @@ I am passionate about engineering as a mechanism to improve our world; I find it
     <item>
       <title>A Tale of Jekyll and Hugo</title>
       <link>https://asterane.github.io/posts/a-tale-of-jekyll-and-hugo/</link>
-      <pubDate>Wed, 14 Oct 2020 20:27:00 -0600</pubDate>
+      <pubDate>Wed, 14 Oct 2020 20:27:00 -0400</pubDate>
       
       <guid>https://asterane.github.io/posts/a-tale-of-jekyll-and-hugo/</guid>
       <description>&lt;p&gt;My journey to having a fully functional site where I can publish
@@ -45,9 +54,18 @@ site generators: Jekyll and Hugo.&lt;/p&gt;</description>
     </item>
     
     <item>
+      <title>Structure</title>
+      <link>https://asterane.github.io/the-grid/structure/</link>
+      <pubDate>Tue, 21 Dec 2021 03:40:45 -0500</pubDate>
+      
+      <guid>https://asterane.github.io/the-grid/structure/</guid>
+      <description>a</description>
+    </item>
+    
+    <item>
       <title>Projects</title>
       <link>https://asterane.github.io/projects/</link>
-      <pubDate>Wed, 01 Dec 2021 21:13:33 -0700</pubDate>
+      <pubDate>Tue, 21 Dec 2021 03:40:44 -0500</pubDate>
       
       <guid>https://asterane.github.io/projects/</guid>
       <description>This is a list of my personal projects. Many are engineering efforts and some were undertaken for the sake of learning. I feel that all those listed are notable enough to include for now, but some will be removed in the future, and more will certainly be added.
@@ -55,9 +73,18 @@ Several of these projects are not yet completed to my satisfaction, and I am con
     </item>
     
     <item>
+      <title>Electronics</title>
+      <link>https://asterane.github.io/the-grid/electronics/</link>
+      <pubDate>Tue, 21 Dec 2021 03:40:45 -0500</pubDate>
+      
+      <guid>https://asterane.github.io/the-grid/electronics/</guid>
+      <description>a</description>
+    </item>
+    
+    <item>
       <title>Blog</title>
       <link>https://asterane.github.io/blog/</link>
-      <pubDate>Wed, 01 Dec 2021 21:13:33 -0700</pubDate>
+      <pubDate>Tue, 21 Dec 2021 03:40:44 -0500</pubDate>
       
       <guid>https://asterane.github.io/blog/</guid>
       <description>Welcome to the archives of my blog on engineering and technology. There is not much here yet, but there will be more as time goes on.
@@ -65,9 +92,18 @@ Posts Oct 14 2020 A Tale of Jekyll and Hugo  Sep 22 2020 Hello World!   </descri
     </item>
     
     <item>
+      <title>Software</title>
+      <link>https://asterane.github.io/the-grid/software/</link>
+      <pubDate>Tue, 21 Dec 2021 03:40:45 -0500</pubDate>
+      
+      <guid>https://asterane.github.io/the-grid/software/</guid>
+      <description>a</description>
+    </item>
+    
+    <item>
       <title>Contact</title>
       <link>https://asterane.github.io/contact/</link>
-      <pubDate>Wed, 01 Dec 2021 21:13:33 -0700</pubDate>
+      <pubDate>Tue, 21 Dec 2021 03:40:44 -0500</pubDate>
       
       <guid>https://asterane.github.io/contact/</guid>
       <description>If you are recruiting developers or engineers, I am interested. I also want to hear any feedback you have about my projects or the site itself.
@@ -76,9 +112,18 @@ Loading… </description>
     </item>
     
     <item>
+      <title>Reflection</title>
+      <link>https://asterane.github.io/the-grid/reflection/</link>
+      <pubDate>Tue, 21 Dec 2021 03:40:45 -0500</pubDate>
+      
+      <guid>https://asterane.github.io/the-grid/reflection/</guid>
+      <description>a</description>
+    </item>
+    
+    <item>
       <title>Colophon</title>
       <link>https://asterane.github.io/colophon/</link>
-      <pubDate>Wed, 01 Dec 2021 21:13:33 -0700</pubDate>
+      <pubDate>Tue, 21 Dec 2021 03:40:44 -0500</pubDate>
       
       <guid>https://asterane.github.io/colophon/</guid>
       <description>Table of Contents  Creating site content Generating the site Serving the site Languages used    All of the content on this site is either my work or is in the public domain. I designed and implemented the user interface and style myself.
