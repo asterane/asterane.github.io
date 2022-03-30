@@ -59,7 +59,6 @@ say. Later, the prospect of a personal portfolio where I could share
 my work began to have its own appeal. In recent weeks, I have put up
 this site to fill both purposes. Without further ado, let&rsquo;s begin.</p>
 <div class="ox-hugo-toc toc">
-<div></div>
 <div class="heading">Table of Contents</div>
 <ul>
 <li><a href="#getting-started">Getting Started</a>
@@ -178,34 +177,34 @@ in the configuration file will be part of the generated site.</p>
 with snippets of Liquid that indicate where content is meant to be
 inserted. Below is a basic example of a <code>default.html</code> layout for a
 Jekyll website.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#080">&lt;!DOCTYPE html&gt;</span>
-&lt;<span style="color:#008000;font-weight:bold">html</span>&gt;
-  &lt;<span style="color:#008000;font-weight:bold">head</span>&gt;
-    &lt;<span style="color:#008000;font-weight:bold">title</span>&gt;{{ page.title }}&lt;/<span style="color:#008000;font-weight:bold">title</span>&gt;
-    &lt;<span style="color:#008000;font-weight:bold">link</span> <span style="color:#b44">rel</span><span style="color:#666">=</span><span style="color:#b44">&#34;stylesheet&#34;</span> <span style="color:#b44">type</span><span style="color:#666">=</span><span style="color:#b44">&#34;text/css&#34;</span> <span style="color:#b44">href</span><span style="color:#666">=</span><span style="color:#b44">&#34;/css/main.css&#34;</span>&gt;
-  &lt;/<span style="color:#008000;font-weight:bold">head</span>&gt;
-  &lt;<span style="color:#008000;font-weight:bold">body</span>&gt;
-    &lt;<span style="color:#008000;font-weight:bold">nav</span>&gt;
-      &lt;<span style="color:#008000;font-weight:bold">ul</span>&gt;
-        &lt;<span style="color:#008000;font-weight:bold">li</span>&gt;&lt;<span style="color:#008000;font-weight:bold">a</span> <span style="color:#b44">href</span><span style="color:#666">=</span><span style="color:#b44">&#34;/&#34;</span>&gt;Home&lt;/<span style="color:#008000;font-weight:bold">a</span>&gt;&lt;/<span style="color:#008000;font-weight:bold">li</span>&gt;
-        &lt;<span style="color:#008000;font-weight:bold">li</span>&gt;&lt;<span style="color:#008000;font-weight:bold">a</span> <span style="color:#b44">href</span><span style="color:#666">=</span><span style="color:#b44">&#34;/about&#34;</span>&gt;About&lt;/<span style="color:#008000;font-weight:bold">a</span>&gt;&lt;/<span style="color:#008000;font-weight:bold">li</span>&gt;
-        &lt;<span style="color:#008000;font-weight:bold">li</span>&gt;&lt;<span style="color:#008000;font-weight:bold">a</span> <span style="color:#b44">href</span><span style="color:#666">=</span><span style="color:#b44">&#34;/blog&#34;</span>&gt;Blog&lt;/<span style="color:#008000;font-weight:bold">a</span>&gt;&lt;/<span style="color:#008000;font-weight:bold">li</span>&gt;
-      &lt;/<span style="color:#008000;font-weight:bold">ul</span>&gt;
-    &lt;/<span style="color:#008000;font-weight:bold">nav</span>&gt;
-    &lt;<span style="color:#008000;font-weight:bold">div</span> <span style="color:#b44">class</span><span style="color:#666">=</span><span style="color:#b44">&#34;container&#34;</span>&gt;
-      &lt;<span style="color:#008000;font-weight:bold">h1</span>&gt;{{ page.title }}&lt;/<span style="color:#008000;font-weight:bold">h1</span>&gt;
-
-      {{ content }}
-
-    &lt;/<span style="color:#008000;font-weight:bold">div</span>&gt;<span style="color:#080;font-style:italic">&lt;!-- /.container --&gt;</span>
-    &lt;<span style="color:#008000;font-weight:bold">footer</span>&gt;
-      &lt;<span style="color:#008000;font-weight:bold">ul</span>&gt;
-        &lt;<span style="color:#008000;font-weight:bold">li</span>&gt;&lt;<span style="color:#008000;font-weight:bold">a</span> <span style="color:#b44">href</span><span style="color:#666">=</span><span style="color:#b44">&#34;/contact&#34;</span>&gt;Contact&lt;/<span style="color:#008000;font-weight:bold">a</span>&gt;&lt;/<span style="color:#008000;font-weight:bold">li</span>&gt;
-      &lt;/<span style="color:#008000;font-weight:bold">ul</span>&gt;
-    &lt;/<span style="color:#008000;font-weight:bold">footer</span>&gt;
-  &lt;/<span style="color:#008000;font-weight:bold">body</span>&gt;
-&lt;/<span style="color:#008000;font-weight:bold">html</span>&gt;
-</code></pre></div><p>The Liquid tags are identifiers surrounded by double braces, like <code>{{ content }}</code>. These tell Jekyll what to insert at that area of a page
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span><span style="color:#080">&lt;!DOCTYPE html&gt;</span>
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#008000;font-weight:bold">html</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#008000;font-weight:bold">head</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#008000;font-weight:bold">title</span>&gt;{{ page.title }}&lt;/<span style="color:#008000;font-weight:bold">title</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#008000;font-weight:bold">link</span> <span style="color:#b44">rel</span><span style="color:#666">=</span><span style="color:#b44">&#34;stylesheet&#34;</span> <span style="color:#b44">type</span><span style="color:#666">=</span><span style="color:#b44">&#34;text/css&#34;</span> <span style="color:#b44">href</span><span style="color:#666">=</span><span style="color:#b44">&#34;/css/main.css&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;/<span style="color:#008000;font-weight:bold">head</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#008000;font-weight:bold">body</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#008000;font-weight:bold">nav</span>&gt;
+</span></span><span style="display:flex;"><span>      &lt;<span style="color:#008000;font-weight:bold">ul</span>&gt;
+</span></span><span style="display:flex;"><span>        &lt;<span style="color:#008000;font-weight:bold">li</span>&gt;&lt;<span style="color:#008000;font-weight:bold">a</span> <span style="color:#b44">href</span><span style="color:#666">=</span><span style="color:#b44">&#34;/&#34;</span>&gt;Home&lt;/<span style="color:#008000;font-weight:bold">a</span>&gt;&lt;/<span style="color:#008000;font-weight:bold">li</span>&gt;
+</span></span><span style="display:flex;"><span>        &lt;<span style="color:#008000;font-weight:bold">li</span>&gt;&lt;<span style="color:#008000;font-weight:bold">a</span> <span style="color:#b44">href</span><span style="color:#666">=</span><span style="color:#b44">&#34;/about&#34;</span>&gt;About&lt;/<span style="color:#008000;font-weight:bold">a</span>&gt;&lt;/<span style="color:#008000;font-weight:bold">li</span>&gt;
+</span></span><span style="display:flex;"><span>        &lt;<span style="color:#008000;font-weight:bold">li</span>&gt;&lt;<span style="color:#008000;font-weight:bold">a</span> <span style="color:#b44">href</span><span style="color:#666">=</span><span style="color:#b44">&#34;/blog&#34;</span>&gt;Blog&lt;/<span style="color:#008000;font-weight:bold">a</span>&gt;&lt;/<span style="color:#008000;font-weight:bold">li</span>&gt;
+</span></span><span style="display:flex;"><span>      &lt;/<span style="color:#008000;font-weight:bold">ul</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;/<span style="color:#008000;font-weight:bold">nav</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#008000;font-weight:bold">div</span> <span style="color:#b44">class</span><span style="color:#666">=</span><span style="color:#b44">&#34;container&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>      &lt;<span style="color:#008000;font-weight:bold">h1</span>&gt;{{ page.title }}&lt;/<span style="color:#008000;font-weight:bold">h1</span>&gt;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>      {{ content }}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    &lt;/<span style="color:#008000;font-weight:bold">div</span>&gt;<span style="color:#080;font-style:italic">&lt;!-- /.container --&gt;</span>
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#008000;font-weight:bold">footer</span>&gt;
+</span></span><span style="display:flex;"><span>      &lt;<span style="color:#008000;font-weight:bold">ul</span>&gt;
+</span></span><span style="display:flex;"><span>        &lt;<span style="color:#008000;font-weight:bold">li</span>&gt;&lt;<span style="color:#008000;font-weight:bold">a</span> <span style="color:#b44">href</span><span style="color:#666">=</span><span style="color:#b44">&#34;/contact&#34;</span>&gt;Contact&lt;/<span style="color:#008000;font-weight:bold">a</span>&gt;&lt;/<span style="color:#008000;font-weight:bold">li</span>&gt;
+</span></span><span style="display:flex;"><span>      &lt;/<span style="color:#008000;font-weight:bold">ul</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;/<span style="color:#008000;font-weight:bold">footer</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;/<span style="color:#008000;font-weight:bold">body</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#008000;font-weight:bold">html</span>&gt;
+</span></span></code></pre></div><p>The Liquid tags are identifiers surrounded by double braces, like <code>{{ content }}</code>. These tell Jekyll what to insert at that area of a page
 using this default layout. The title of a page will be defined in a
 content file, which is usually Markdown or HTML, and the content
 itself is the text of that file.</p>
@@ -214,11 +213,11 @@ itself is the text of that file.</p>
 pages, and to set important variables, all content files must begin
 with Jekyll front matter. Here are the first four lines of a page
 <code>helloworld.md</code>.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#00f;font-weight:bold">---</span><span style="color:#bbb">
-</span><span style="color:#bbb"></span><span style="color:#008000;font-weight:bold">layout</span>:<span style="color:#bbb"> </span>default<span style="color:#bbb">
-</span><span style="color:#bbb"></span><span style="color:#008000;font-weight:bold">title</span>:<span style="color:#bbb"> </span>Hello World<span style="color:#bbb">
-</span><span style="color:#bbb"></span><span style="color:#00f;font-weight:bold">---</span><span style="color:#bbb">
-</span></code></pre></div><p>You can see that the page with this front matter will use the layout
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#00f;font-weight:bold">---</span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#008000;font-weight:bold">layout</span>:<span style="color:#bbb"> </span>default<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#008000;font-weight:bold">title</span>:<span style="color:#bbb"> </span>Hello World<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#00f;font-weight:bold">---</span><span style="color:#bbb">
+</span></span></span></code></pre></div><p>You can see that the page with this front matter will use the layout
 we just defined at <code>_layouts/default.html</code>, and that the page title
 will be &ldquo;Hello World&rdquo;. There are other available variables, and you
 may even create custom ones. The rest of the file is up to you,
@@ -232,16 +231,16 @@ structure at <code>/YYYY/MM/DD/put-name-here.html</code>.</p>
 of static site layouts: they may be nested. A layout which is to use
 another as a parent must begin with front matter. Here is an example
 <code>post.html</code> layout that displays the date below the title.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">---
-layout: default
----
-
-&lt;<span style="color:#008000;font-weight:bold">p</span> <span style="color:#b44">class</span><span style="color:#666">=</span><span style="color:#b44">&#34;meta&#34;</span>&gt;{{ page.date | date_to_string }}&lt;/<span style="color:#008000;font-weight:bold">p</span>&gt;
-
-&lt;<span style="color:#008000;font-weight:bold">div</span> <span style="color:#b44">class</span><span style="color:#666">=</span><span style="color:#b44">&#34;post&#34;</span>&gt;
-  {{ content }}
-&lt;/<span style="color:#008000;font-weight:bold">div</span>&gt;
-</code></pre></div><p>This layout inherits from our default layout but adds additional
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span>layout: default
+</span></span><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#008000;font-weight:bold">p</span> <span style="color:#b44">class</span><span style="color:#666">=</span><span style="color:#b44">&#34;meta&#34;</span>&gt;{{ page.date | date_to_string }}&lt;/<span style="color:#008000;font-weight:bold">p</span>&gt;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#008000;font-weight:bold">div</span> <span style="color:#b44">class</span><span style="color:#666">=</span><span style="color:#b44">&#34;post&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>  {{ content }}
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#008000;font-weight:bold">div</span>&gt;
+</span></span></code></pre></div><p>This layout inherits from our default layout but adds additional
 information that should be useful for blog posts. The vertical bar is
 a pipe, passing the page date into the <code>date_to_string</code> function,
 which will convert it to <code>YYYY-MM-DD</code> format.</p>
@@ -253,23 +252,23 @@ when it is displayed in a browser.</p>
 site. Any complete site will likely be more complicated than this, but
 it serves to show how Jekyll structures its files in practice. The
 generated site would be placed in a <code>_site</code> directory.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">.
-├── _layouts
-│   ├── default.html
-│   └── post.html
-├── _drafts
-├── _posts
-│   └── YYYY-MM-DD-put-name-here.md
-├── img
-├── css
-│   └── main.css
-├── _config.yml
-├── index.md
-├── helloworld.md
-├── about.md
-├── blog.md
-└── contact.md
-</code></pre></div><h3 id="generating-content">Generating Content</h3>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>.
+</span></span><span style="display:flex;"><span>├── _layouts
+</span></span><span style="display:flex;"><span>│   ├── default.html
+</span></span><span style="display:flex;"><span>│   └── post.html
+</span></span><span style="display:flex;"><span>├── _drafts
+</span></span><span style="display:flex;"><span>├── _posts
+</span></span><span style="display:flex;"><span>│   └── YYYY-MM-DD-put-name-here.md
+</span></span><span style="display:flex;"><span>├── img
+</span></span><span style="display:flex;"><span>├── css
+</span></span><span style="display:flex;"><span>│   └── main.css
+</span></span><span style="display:flex;"><span>├── _config.yml
+</span></span><span style="display:flex;"><span>├── index.md
+</span></span><span style="display:flex;"><span>├── helloworld.md
+</span></span><span style="display:flex;"><span>├── about.md
+</span></span><span style="display:flex;"><span>├── blog.md
+</span></span><span style="display:flex;"><span>└── contact.md
+</span></span></code></pre></div><h3 id="generating-content">Generating Content</h3>
 <p>My love affair with <a href="https://www.gnu.org/software/emacs/">Emacs</a> began shortly after my senior year of high
 school was abruptly truncated by the aforementioned pandemic. I will
 undoubtedly be writing more about Emacs in the future, but suffice it
@@ -302,68 +301,68 @@ files should be published as HTML files containing only a body, and
 that all other files (CSS, images) should be published verbatim. I
 also included a function that runs when the file is loaded and
 actually publishes the content.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp">(<span style="color:#a2f">require</span> <span style="color:#b8860b">&#39;ox-publish</span>)
-(<span style="color:#a2f">setq</span> <span style="color:#b8860b">org-publish-project-alist</span>
-      <span style="color:#666">&#39;</span>(
-        (<span style="color:#b44">&#34;asterane-org&#34;</span>
-         <span style="color:#a2f">:base-directory</span> <span style="color:#b44">&#34;./org/&#34;</span>
-         <span style="color:#a2f">:base-extension</span> <span style="color:#b44">&#34;org&#34;</span>
-         <span style="color:#a2f">:publishing-directory</span> <span style="color:#b44">&#34;.&#34;</span>
-         <span style="color:#a2f">:recursive</span> <span style="color:#800">t</span>
-         <span style="color:#a2f">:publishing-function</span> <span style="color:#b8860b">org-html-publish-to-html</span>
-         <span style="color:#a2f">:headline-levels</span> <span style="color:#666">5</span> <span style="color:#080;font-style:italic">;; Could be whatever</span>
-         <span style="color:#a2f">:html-extension</span> <span style="color:#b44">&#34;html&#34;</span>
-         <span style="color:#a2f">:body-only</span> <span style="color:#800">t</span> <span style="color:#080;font-style:italic">;; Only export between &lt;body&gt; &lt;/body&gt;</span>
-         )
-        (<span style="color:#b44">&#34;asterane-static&#34;</span>
-         <span style="color:#a2f">:base-directory</span> <span style="color:#b44">&#34;./org/&#34;</span>
-         <span style="color:#a2f">:base-extension</span> <span style="color:#b44">&#34;html\\|css\\|js\\|md\\|png\\|jpg\\|gif\\|ico\\|pdf&#34;</span>
-         <span style="color:#a2f">:publishing-directory</span> <span style="color:#b44">&#34;.&#34;</span>
-         <span style="color:#a2f">:recursive</span> <span style="color:#800">t</span>
-         <span style="color:#a2f">:publishing-function</span> <span style="color:#b8860b">org-publish-attachment</span>
-         )
-        (<span style="color:#b44">&#34;asterane-all&#34;</span> <span style="color:#a2f">:components</span> (<span style="color:#b44">&#34;asterane-org&#34;</span> <span style="color:#b44">&#34;asterane-static&#34;</span>))
-        ))
-
-(<span style="color:#a2f">defun</span> <span style="color:#b8860b">asterane-publish</span> ()
-  <span style="color:#b44">&#34;Publishes all projects regardless of file modification status.&#34;</span>
-    (<span style="color:#a2f">let</span> ((<span style="color:#b8860b">current-prefix-arg</span> <span style="color:#666">4</span>))
-      (<span style="color:#00a000">call-interactively</span> <span style="color:#b8860b">&#39;org-publish-all</span>)
-      )
-  )
-</code></pre></div><p>To ensure that my exported HTML bodies would be properly processed by
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="display:flex;"><span>(<span style="color:#a2f">require</span> <span style="color:#b8860b">&#39;ox-publish</span>)
+</span></span><span style="display:flex;"><span>(<span style="color:#a2f">setq</span> <span style="color:#b8860b">org-publish-project-alist</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#666">&#39;</span>(
+</span></span><span style="display:flex;"><span>        (<span style="color:#b44">&#34;asterane-org&#34;</span>
+</span></span><span style="display:flex;"><span>         <span style="color:#a2f">:base-directory</span> <span style="color:#b44">&#34;./org/&#34;</span>
+</span></span><span style="display:flex;"><span>         <span style="color:#a2f">:base-extension</span> <span style="color:#b44">&#34;org&#34;</span>
+</span></span><span style="display:flex;"><span>         <span style="color:#a2f">:publishing-directory</span> <span style="color:#b44">&#34;.&#34;</span>
+</span></span><span style="display:flex;"><span>         <span style="color:#a2f">:recursive</span> <span style="color:#800">t</span>
+</span></span><span style="display:flex;"><span>         <span style="color:#a2f">:publishing-function</span> <span style="color:#b8860b">org-html-publish-to-html</span>
+</span></span><span style="display:flex;"><span>         <span style="color:#a2f">:headline-levels</span> <span style="color:#666">5</span> <span style="color:#080;font-style:italic">;; Could be whatever</span>
+</span></span><span style="display:flex;"><span>         <span style="color:#a2f">:html-extension</span> <span style="color:#b44">&#34;html&#34;</span>
+</span></span><span style="display:flex;"><span>         <span style="color:#a2f">:body-only</span> <span style="color:#800">t</span> <span style="color:#080;font-style:italic">;; Only export between &lt;body&gt; &lt;/body&gt;</span>
+</span></span><span style="display:flex;"><span>         )
+</span></span><span style="display:flex;"><span>        (<span style="color:#b44">&#34;asterane-static&#34;</span>
+</span></span><span style="display:flex;"><span>         <span style="color:#a2f">:base-directory</span> <span style="color:#b44">&#34;./org/&#34;</span>
+</span></span><span style="display:flex;"><span>         <span style="color:#a2f">:base-extension</span> <span style="color:#b44">&#34;html\\|css\\|js\\|md\\|png\\|jpg\\|gif\\|ico\\|pdf&#34;</span>
+</span></span><span style="display:flex;"><span>         <span style="color:#a2f">:publishing-directory</span> <span style="color:#b44">&#34;.&#34;</span>
+</span></span><span style="display:flex;"><span>         <span style="color:#a2f">:recursive</span> <span style="color:#800">t</span>
+</span></span><span style="display:flex;"><span>         <span style="color:#a2f">:publishing-function</span> <span style="color:#b8860b">org-publish-attachment</span>
+</span></span><span style="display:flex;"><span>         )
+</span></span><span style="display:flex;"><span>        (<span style="color:#b44">&#34;asterane-all&#34;</span> <span style="color:#a2f">:components</span> (<span style="color:#b44">&#34;asterane-org&#34;</span> <span style="color:#b44">&#34;asterane-static&#34;</span>))
+</span></span><span style="display:flex;"><span>        ))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(<span style="color:#a2f">defun</span> <span style="color:#b8860b">asterane-publish</span> ()
+</span></span><span style="display:flex;"><span>  <span style="color:#b44">&#34;Publishes all projects regardless of file modification status.&#34;</span>
+</span></span><span style="display:flex;"><span>    (<span style="color:#a2f">let</span> ((<span style="color:#b8860b">current-prefix-arg</span> <span style="color:#666">4</span>))
+</span></span><span style="display:flex;"><span>      (<span style="color:#00a000">call-interactively</span> <span style="color:#b8860b">&#39;org-publish-all</span>)
+</span></span><span style="display:flex;"><span>      )
+</span></span><span style="display:flex;"><span>  )
+</span></span></code></pre></div><p>To ensure that my exported HTML bodies would be properly processed by
 Jekyll, I also had to structure my Org files in such a way that
 appropriate Jekyll front matter would be placed at the top of each
 one. Each Org file I published from thus began as shown here.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-org" data-lang="org"><span style="color:#080;font-weight:bold">#+OPTIONS</span><span style="color:#080;font-style:italic">: toc:nil num:nil</span>
-<span style="color:#080;font-style:italic">#+BEGIN_EXPORT </span><span style="color:#080;font-weight:bold">html</span>
----
-layout: default
-title: [title]
----
-<span style="color:#080;font-style:italic">#+END_EXPORT</span>
-</code></pre></div><h4 id="gnu-make">GNU Make</h4>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-org" data-lang="org"><span style="display:flex;"><span><span style="color:#080;font-weight:bold">#+OPTIONS</span><span style="color:#080;font-style:italic">: toc:nil num:nil</span>
+</span></span><span style="display:flex;"><span><span style="color:#080;font-style:italic">#+BEGIN_EXPORT </span><span style="color:#080;font-weight:bold">html</span>
+</span></span><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span>layout: default
+</span></span><span style="display:flex;"><span>title: [title]
+</span></span><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span><span style="color:#080;font-style:italic">#+END_EXPORT</span>
+</span></span></code></pre></div><h4 id="gnu-make">GNU Make</h4>
 <p>My <code>publish.el</code> file was meant to be loaded into Emacs batch mode and
 run from the top level directory of my Jekyll site. I wrote a Makefile
 to accomplish this and other useful functions using only simple
 commands, shown below.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-makefile" data-lang="makefile"><span style="color:#00a000">.PHONY</span><span style="color:#666">:</span> serve publish
-
-<span style="color:#00a000">serve</span><span style="color:#666">:</span> publish
-        @echo <span style="color:#b44">&#34;Serving...&#34;</span>
-        bundle <span style="color:#a2f">exec</span> jekyll serve --host<span style="color:#666">=</span>0.0.0.0
-
-<span style="color:#00a000">publish</span><span style="color:#666">:</span> publish.el
-        @echo <span style="color:#b44">&#34;Publishing...&#34;</span>
-        emacs --batch --no-init-file --load publish.el --funcall asterane-publish
-
-<span style="color:#00a000">clean</span><span style="color:#666">:</span>
-        @echo <span style="color:#b44">&#34;Cleaning directory...&#34;</span>
-        @find org -maxdepth <span style="color:#666">1</span> -mindepth <span style="color:#666">1</span> -type d -exec basename <span style="color:#666">{}</span> <span style="color:#b62;font-weight:bold">\;</span> <span style="color:#b62;font-weight:bold">\
-</span><span style="color:#b62;font-weight:bold"></span>        | xargs rm -rvf
-        @rm -rvf *.html
-        @rm -rvf _site
-</code></pre></div><p>With this Makefile in my site&rsquo;s directory, all I need to do to publish
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-makefile" data-lang="makefile"><span style="display:flex;"><span><span style="color:#00a000">.PHONY</span><span style="color:#666">:</span> serve publish
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#00a000">serve</span><span style="color:#666">:</span> publish
+</span></span><span style="display:flex;"><span>        @echo <span style="color:#b44">&#34;Serving...&#34;</span>
+</span></span><span style="display:flex;"><span>        bundle <span style="color:#a2f">exec</span> jekyll serve --host<span style="color:#666">=</span>0.0.0.0
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#00a000">publish</span><span style="color:#666">:</span> publish.el
+</span></span><span style="display:flex;"><span>        @echo <span style="color:#b44">&#34;Publishing...&#34;</span>
+</span></span><span style="display:flex;"><span>        emacs --batch --no-init-file --load publish.el --funcall asterane-publish
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#00a000">clean</span><span style="color:#666">:</span>
+</span></span><span style="display:flex;"><span>        @echo <span style="color:#b44">&#34;Cleaning directory...&#34;</span>
+</span></span><span style="display:flex;"><span>        @find org -maxdepth <span style="color:#666">1</span> -mindepth <span style="color:#666">1</span> -type d -exec basename <span style="color:#666">{}</span> <span style="color:#b62;font-weight:bold">\;</span> <span style="color:#b62;font-weight:bold">\
+</span></span></span><span style="display:flex;"><span><span style="color:#b62;font-weight:bold"></span>        | xargs rm -rvf
+</span></span><span style="display:flex;"><span>        @rm -rvf *.html
+</span></span><span style="display:flex;"><span>        @rm -rvf _site
+</span></span></code></pre></div><p>With this Makefile in my site&rsquo;s directory, all I need to do to publish
 my Org files to HTML bodies for Jekyll to process is to run <code>make publish</code> at the command line. To serve my site over my local network
 for testing, I run <code>make serve</code>, and to clean up all the generated
 files, I run <code>make clean</code>.</p>
@@ -427,19 +426,19 @@ files or folders deemed necessary, but the final site will only be
 generated from the contents of particular folders, according to a
 clearly documented set of rules. A simple configuration file,
 <code>config.toml</code>, appears below.</p>
-<pre tabindex="0"><code class="language-conf" data-lang="conf">baseURL = &quot;https://asterane.github.io/&quot;
-languageCode = &quot;en-us&quot;
-title = &quot;asterane&quot;
-
-[params]
-  Name = &quot;Matthew Rothlisberger&quot;
-
-[markup.highlight]
-  style = &quot;emacs&quot;
-
-[markup.goldmark.renderer]
-  unsafe = true
-</code></pre><p>This is brief and clean, setting the base link URL, site title,
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cfg" data-lang="cfg"><span style="display:flex;"><span><span style="color:#b44">baseURL</span> <span style="color:#666">=</span> <span style="color:#b44">&#34;https://asterane.github.io/&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#b44">languageCode</span> <span style="color:#666">=</span> <span style="color:#b44">&#34;en-us&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#b44">title</span> <span style="color:#666">=</span> <span style="color:#b44">&#34;asterane&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a2f;font-weight:bold">[params]</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#b44">Name</span> <span style="color:#666">=</span> <span style="color:#b44">&#34;Matthew Rothlisberger&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a2f;font-weight:bold">[markup.highlight]</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#b44">style</span> <span style="color:#666">=</span> <span style="color:#b44">&#34;emacs&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a2f;font-weight:bold">[markup.goldmark.renderer]</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#b44">unsafe</span> <span style="color:#666">=</span> <span style="color:#b44">true</span>
+</span></span></code></pre></div><p>This is brief and clean, setting the base link URL, site title,
 creator name, and code highlighting style. Parameters from the config
 may be used in layouts, which are in the <code>layouts</code> directory. Layouts
 are HTML files with bits of Go template language that indicate where
@@ -448,35 +447,35 @@ content and various parameters should be inserted.</p>
 <code>layouts/_default/baseof.html</code>. All layouts will inherit from this one
 unless otherwise specified; a default for list pages may also be
 created. Here is a basic example of a <code>baseof.html</code> layout for Hugo.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#080">&lt;!DOCTYPE html&gt;</span>
-&lt;<span style="color:#008000;font-weight:bold">html</span>&gt;
-  &lt;<span style="color:#008000;font-weight:bold">head</span>&gt;
-    &lt;<span style="color:#008000;font-weight:bold">title</span>&gt;{{ .Title }} | {{ .Site.Title }}&lt;/<span style="color:#008000;font-weight:bold">title</span>&gt;
-    &lt;<span style="color:#008000;font-weight:bold">link</span> <span style="color:#b44">rel</span><span style="color:#666">=</span><span style="color:#b44">&#34;stylesheet&#34;</span> <span style="color:#b44">type</span><span style="color:#666">=</span><span style="color:#b44">&#34;text/css&#34;</span> <span style="color:#b44">href</span><span style="color:#666">=</span><span style="color:#b44">&#34;/css/main.css&#34;</span>&gt;
-  &lt;/<span style="color:#008000;font-weight:bold">head</span>&gt;
-  &lt;<span style="color:#008000;font-weight:bold">body</span>&gt;
-    &lt;<span style="color:#008000;font-weight:bold">nav</span>&gt;
-      &lt;<span style="color:#008000;font-weight:bold">ul</span>&gt;
-        &lt;<span style="color:#008000;font-weight:bold">li</span>&gt;&lt;<span style="color:#008000;font-weight:bold">a</span> <span style="color:#b44">href</span><span style="color:#666">=</span><span style="color:#b44">&#34;/&#34;</span>&gt;Home&lt;/<span style="color:#008000;font-weight:bold">a</span>&gt;&lt;/<span style="color:#008000;font-weight:bold">li</span>&gt;
-        &lt;<span style="color:#008000;font-weight:bold">li</span>&gt;&lt;<span style="color:#008000;font-weight:bold">a</span> <span style="color:#b44">href</span><span style="color:#666">=</span><span style="color:#b44">&#34;/about&#34;</span>&gt;About&lt;/<span style="color:#008000;font-weight:bold">a</span>&gt;&lt;/<span style="color:#008000;font-weight:bold">li</span>&gt;
-        &lt;<span style="color:#008000;font-weight:bold">li</span>&gt;&lt;<span style="color:#008000;font-weight:bold">a</span> <span style="color:#b44">href</span><span style="color:#666">=</span><span style="color:#b44">&#34;/blog&#34;</span>&gt;Blog&lt;/<span style="color:#008000;font-weight:bold">a</span>&gt;&lt;/<span style="color:#008000;font-weight:bold">li</span>&gt;
-      &lt;/<span style="color:#008000;font-weight:bold">ul</span>&gt;
-    &lt;/<span style="color:#008000;font-weight:bold">nav</span>&gt;
-    &lt;<span style="color:#008000;font-weight:bold">div</span> <span style="color:#b44">class</span><span style="color:#666">=</span><span style="color:#b44">&#34;container&#34;</span>&gt;
-
-      {{ block &#34;main&#34; . }}
-
-      {{ end }}
-
-    &lt;/<span style="color:#008000;font-weight:bold">div</span>&gt;<span style="color:#080;font-style:italic">&lt;!-- /.container --&gt;</span>
-    &lt;<span style="color:#008000;font-weight:bold">footer</span>&gt;
-      &lt;<span style="color:#008000;font-weight:bold">ul</span>&gt;
-        &lt;<span style="color:#008000;font-weight:bold">li</span>&gt;&lt;<span style="color:#008000;font-weight:bold">a</span> <span style="color:#b44">href</span><span style="color:#666">=</span><span style="color:#b44">&#34;/contact&#34;</span>&gt;Contact&lt;/<span style="color:#008000;font-weight:bold">a</span>&gt;&lt;/<span style="color:#008000;font-weight:bold">li</span>&gt;
-      &lt;/<span style="color:#008000;font-weight:bold">ul</span>&gt;
-    &lt;/<span style="color:#008000;font-weight:bold">footer</span>&gt;
-  &lt;/<span style="color:#008000;font-weight:bold">body</span>&gt;
-&lt;/<span style="color:#008000;font-weight:bold">html</span>&gt;
-</code></pre></div><p>Note that in Hugo templates, the tags are surrounded by double braces
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span><span style="color:#080">&lt;!DOCTYPE html&gt;</span>
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#008000;font-weight:bold">html</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#008000;font-weight:bold">head</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#008000;font-weight:bold">title</span>&gt;{{ .Title }} | {{ .Site.Title }}&lt;/<span style="color:#008000;font-weight:bold">title</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#008000;font-weight:bold">link</span> <span style="color:#b44">rel</span><span style="color:#666">=</span><span style="color:#b44">&#34;stylesheet&#34;</span> <span style="color:#b44">type</span><span style="color:#666">=</span><span style="color:#b44">&#34;text/css&#34;</span> <span style="color:#b44">href</span><span style="color:#666">=</span><span style="color:#b44">&#34;/css/main.css&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;/<span style="color:#008000;font-weight:bold">head</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#008000;font-weight:bold">body</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#008000;font-weight:bold">nav</span>&gt;
+</span></span><span style="display:flex;"><span>      &lt;<span style="color:#008000;font-weight:bold">ul</span>&gt;
+</span></span><span style="display:flex;"><span>        &lt;<span style="color:#008000;font-weight:bold">li</span>&gt;&lt;<span style="color:#008000;font-weight:bold">a</span> <span style="color:#b44">href</span><span style="color:#666">=</span><span style="color:#b44">&#34;/&#34;</span>&gt;Home&lt;/<span style="color:#008000;font-weight:bold">a</span>&gt;&lt;/<span style="color:#008000;font-weight:bold">li</span>&gt;
+</span></span><span style="display:flex;"><span>        &lt;<span style="color:#008000;font-weight:bold">li</span>&gt;&lt;<span style="color:#008000;font-weight:bold">a</span> <span style="color:#b44">href</span><span style="color:#666">=</span><span style="color:#b44">&#34;/about&#34;</span>&gt;About&lt;/<span style="color:#008000;font-weight:bold">a</span>&gt;&lt;/<span style="color:#008000;font-weight:bold">li</span>&gt;
+</span></span><span style="display:flex;"><span>        &lt;<span style="color:#008000;font-weight:bold">li</span>&gt;&lt;<span style="color:#008000;font-weight:bold">a</span> <span style="color:#b44">href</span><span style="color:#666">=</span><span style="color:#b44">&#34;/blog&#34;</span>&gt;Blog&lt;/<span style="color:#008000;font-weight:bold">a</span>&gt;&lt;/<span style="color:#008000;font-weight:bold">li</span>&gt;
+</span></span><span style="display:flex;"><span>      &lt;/<span style="color:#008000;font-weight:bold">ul</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;/<span style="color:#008000;font-weight:bold">nav</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#008000;font-weight:bold">div</span> <span style="color:#b44">class</span><span style="color:#666">=</span><span style="color:#b44">&#34;container&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>      {{ block &#34;main&#34; . }}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>      {{ end }}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    &lt;/<span style="color:#008000;font-weight:bold">div</span>&gt;<span style="color:#080;font-style:italic">&lt;!-- /.container --&gt;</span>
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#008000;font-weight:bold">footer</span>&gt;
+</span></span><span style="display:flex;"><span>      &lt;<span style="color:#008000;font-weight:bold">ul</span>&gt;
+</span></span><span style="display:flex;"><span>        &lt;<span style="color:#008000;font-weight:bold">li</span>&gt;&lt;<span style="color:#008000;font-weight:bold">a</span> <span style="color:#b44">href</span><span style="color:#666">=</span><span style="color:#b44">&#34;/contact&#34;</span>&gt;Contact&lt;/<span style="color:#008000;font-weight:bold">a</span>&gt;&lt;/<span style="color:#008000;font-weight:bold">li</span>&gt;
+</span></span><span style="display:flex;"><span>      &lt;/<span style="color:#008000;font-weight:bold">ul</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;/<span style="color:#008000;font-weight:bold">footer</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;/<span style="color:#008000;font-weight:bold">body</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#008000;font-weight:bold">html</span>&gt;
+</span></span></code></pre></div><p>Note that in Hugo templates, the tags are surrounded by double braces
 and the parameters are accessed using dot notation. To access any site
 parameter, one dot comes in front of the first name and namespaces are
 separated with further dots. Identifiers without blocks are keywords
@@ -487,13 +486,13 @@ one. In addition to <code>baseof.html</code>, Hugo requires the provision of two
 other templates: <code>single.html</code> and <code>index.html</code>. The former provides
 the template for all single pages; the latter, the template for the
 site&rsquo;s main page. See a basic <code>single.html</code> below.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">{{ define &#34;main&#34; }}
-
-&lt;<span style="color:#008000;font-weight:bold">h1</span>&gt;{{ .Title }}&lt;/<span style="color:#008000;font-weight:bold">h1</span>&gt;
-{{ .Content }}
-
-{{ end }}
-</code></pre></div><p>You can see that the <code>{{ define &quot;main&quot; }}</code> of the single page template
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>{{ define &#34;main&#34; }}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#008000;font-weight:bold">h1</span>&gt;{{ .Title }}&lt;/<span style="color:#008000;font-weight:bold">h1</span>&gt;
+</span></span><span style="display:flex;"><span>{{ .Content }}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>{{ end }}
+</span></span></code></pre></div><p>You can see that the <code>{{ define &quot;main&quot; }}</code> of the single page template
 will slot neatly into the <code>{{ block &quot;main&quot; }}</code> of the base
 template. The content of the page is actually inserted here. Hugo
 separates the base from the single page template because you are also
@@ -507,11 +506,11 @@ displayed when an invalid URL is accessed.</p>
 Markdown. They may be split up into subdirectories as desired, each
 representing a distinct section of the site. Every content file must
 contain Hugo front matter, depicted here.</p>
-<pre tabindex="0"><code class="language-conf" data-lang="conf">+++
-title = &quot;Hello World&quot;
-author = [&quot;Name Here&quot;]
-+++
-</code></pre><p>This sets the title and author of the page; many other variables
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cfg" data-lang="cfg"><span style="display:flex;"><span><span style="color:#b44">+++</span>
+</span></span><span style="display:flex;"><span><span style="color:#b44">title</span> <span style="color:#666">=</span> <span style="color:#b44">&#34;Hello World&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#b44">author</span> <span style="color:#666">=</span> <span style="color:#b44">[&#34;Name Here&#34;]</span>
+</span></span><span style="display:flex;"><span><span style="color:#b44">+++</span>
+</span></span></code></pre></div><p>This sets the title and author of the page; many other variables
 describing a page may also be set in the front matter, including
 arbitrary variables. Front matter is only required in Markdown content
 files, not in any templates or layouts. Also note that Hugo
@@ -525,32 +524,32 @@ autogenerated folders are unused; they could be deleted if
 desired. The conceptual division between content, layouts, and
 resources is apparent. Different layouts will apply to different
 content based on directory structure and name.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">.
-├── archetypes
-│   └── default.md
-├── data
-├── themes
-├── content
-│   ├── posts
-│   │   └── helloworld.md
-│   ├── _index.md
-│   ├── about.md
-│   ├── blog.md
-│   └── contact.md
-├── layouts
-│   ├── _default
-│   │   ├── baseof.html
-│   │   └── single.html
-│   ├── posts
-│   │   └── single.html
-│   ├── index.html
-│   └── 404.html
-├── static
-│   ├── img
-│   └── css
-│       └── main.css
-└── config.toml
-</code></pre></div><h3 id="hugo-content">Generating Content</h3>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>.
+</span></span><span style="display:flex;"><span>├── archetypes
+</span></span><span style="display:flex;"><span>│   └── default.md
+</span></span><span style="display:flex;"><span>├── data
+</span></span><span style="display:flex;"><span>├── themes
+</span></span><span style="display:flex;"><span>├── content
+</span></span><span style="display:flex;"><span>│   ├── posts
+</span></span><span style="display:flex;"><span>│   │   └── helloworld.md
+</span></span><span style="display:flex;"><span>│   ├── _index.md
+</span></span><span style="display:flex;"><span>│   ├── about.md
+</span></span><span style="display:flex;"><span>│   ├── blog.md
+</span></span><span style="display:flex;"><span>│   └── contact.md
+</span></span><span style="display:flex;"><span>├── layouts
+</span></span><span style="display:flex;"><span>│   ├── _default
+</span></span><span style="display:flex;"><span>│   │   ├── baseof.html
+</span></span><span style="display:flex;"><span>│   │   └── single.html
+</span></span><span style="display:flex;"><span>│   ├── posts
+</span></span><span style="display:flex;"><span>│   │   └── single.html
+</span></span><span style="display:flex;"><span>│   ├── index.html
+</span></span><span style="display:flex;"><span>│   └── 404.html
+</span></span><span style="display:flex;"><span>├── static
+</span></span><span style="display:flex;"><span>│   ├── img
+</span></span><span style="display:flex;"><span>│   └── css
+</span></span><span style="display:flex;"><span>│       └── main.css
+</span></span><span style="display:flex;"><span>└── config.toml
+</span></span></code></pre></div><h3 id="hugo-content">Generating Content</h3>
 <p>Of course, with Hugo I still intended to author all of my content in
 Emacs. Part of what drew me to Hugo is the presence of a well
 maintained Org mode exporter that specifically targets Hugo
@@ -593,24 +592,24 @@ process, I still wanted a unified interface to my commonly used
 operations. I created a simple Makefile, shown here, that can serve my
 site locally, publish it to <code>public</code>, deploy <code>public</code>, and clean up
 generated files.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-makefile" data-lang="makefile"><span style="color:#00a000">.PHONY</span><span style="color:#666">:</span> deploy serve publish
-
-<span style="color:#00a000">deploy</span><span style="color:#666">:</span>
-        @./deploy.sh
-
-<span style="color:#00a000">serve</span><span style="color:#666">:</span>
-        @echo <span style="color:#b44">&#34;Serving...&#34;</span>
-        hugo server -D --bind 0.0.0.0
-
-<span style="color:#00a000">publish</span><span style="color:#666">:</span>
-        @echo <span style="color:#b44">&#34;Publishing...&#34;</span>
-        hugo
-
-<span style="color:#00a000">clean</span><span style="color:#666">:</span>
-        @echo <span style="color:#b44">&#34;Cleaning generated files...&#34;</span>
-        @rm -rvf public/*
-        @rm -rvf content/*
-</code></pre></div><p>Now, a few keystrokes in Emacs export all of my content to Markdown
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-makefile" data-lang="makefile"><span style="display:flex;"><span><span style="color:#00a000">.PHONY</span><span style="color:#666">:</span> deploy serve publish
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#00a000">deploy</span><span style="color:#666">:</span>
+</span></span><span style="display:flex;"><span>        @./deploy.sh
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#00a000">serve</span><span style="color:#666">:</span>
+</span></span><span style="display:flex;"><span>        @echo <span style="color:#b44">&#34;Serving...&#34;</span>
+</span></span><span style="display:flex;"><span>        hugo server -D --bind 0.0.0.0
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#00a000">publish</span><span style="color:#666">:</span>
+</span></span><span style="display:flex;"><span>        @echo <span style="color:#b44">&#34;Publishing...&#34;</span>
+</span></span><span style="display:flex;"><span>        hugo
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#00a000">clean</span><span style="color:#666">:</span>
+</span></span><span style="display:flex;"><span>        @echo <span style="color:#b44">&#34;Cleaning generated files...&#34;</span>
+</span></span><span style="display:flex;"><span>        @rm -rvf public/*
+</span></span><span style="display:flex;"><span>        @rm -rvf content/*
+</span></span></code></pre></div><p>Now, a few keystrokes in Emacs export all of my content to Markdown
 ready for Hugo. Just a couple <code>make</code> commands later, my changes are
 pushed live. I can then go ahead and commit the site source to ensure
 that everything is tracked and backed up.</p>
@@ -661,7 +660,7 @@ in the meantime.</p>
         <li><a href="/contact">Contact</a></li>
         <li><a href="/colophon">Colophon</a></li>
       </ul>
-      <p>Copyright &#xA9; 2020-2021 Matthew Rothlisberger</p>
+      <p>Copyright &#xA9; 2020-2022 Matthew Rothlisberger</p>
     </footer>
   </body>
 </html>
